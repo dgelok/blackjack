@@ -1,0 +1,24 @@
+#dealer-hand {
+    height: 240px;
+    background-color: rgb(10, 177, 32);
+}
+
+#player-hand {
+    height: 240px;
+    background-color: rgb(10, 177, 32);
+}
+
+#board {
+    border-radius: 5%;
+    background-color: rgba(8, 255, 243, 0.774);
+    margin: 10px;
+}
+
+#table {
+    margin: 30px;
+}
+
+img {
+    height: 200px;
+    margin: 10px;
+}

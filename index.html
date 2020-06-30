@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="styles.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div id="board" class="row justify-content-center">
+                <div class="col-11">
+                    <div id="table" class="bg-light">
+
+
+                        <div id="messages"></div>
+                        
+                        <label class="m-1">Dealer: </label>
+                        
+                        <label id="dealer-points" class="points"></label>
+                        
+                        <div id="dealer-hand" class="hand d-flex align-items-center">
+                        </div>
+                        
+                        <label class="m-1">Player: </label>
+                        
+                        <label id="player-points" class="points"></label>
+                        
+                        <div id="player-hand" class="hand d-flex align-items-center">
+                        </div>
+                        
+                        <div class="buttons m-1 d-flex justify-content-between">
+                            <div class="buttons1 d-flex">
+                                <button id="deal-button">Deal</button>
+                                
+                                <button id="hit-button">Hit</button>
+                                
+                                <button id="stand-button">Stand</button>
+                            </div>
+                            <div class="cash mr-1">Current Cash: $<span id="cash"></span></div>
+                        </div>
+                        <div class="buttons2 m-1 d-flex justify-content-between">
+                            <div class="buttons2 mb-1 d-flex">
+                                <button id="Add10">Bet +$10</button>
+                                <button id="Minus10">Reduce Bet -$10</button>
+                                <button id="reset-button">Reset Game</button>
+                            </div>
+                            <div class="bets mr-1">Current Bet: $<span id="bet"></span></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    
+    
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+        <!-- <script src="blackjackOOP.js"></script> -->
+        <script src="blackjack.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
